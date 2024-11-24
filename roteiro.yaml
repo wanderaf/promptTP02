@@ -1,0 +1,17 @@
+roteiro:
+  llm_name: "gemini-1.5-flash"
+  prompts:
+    atenas: >
+      Liste 3 pontos turísticos imperdíveis de Atenas. Para cada ponto turístico, forneça o número estimado de visitantes anuais e uma breve descrição histórica ou cultural. 
+      Responda no seguinte formato JSON:
+      {
+          "Nome do Ponto Turístico": {"cidade": "Atenas", "qtd_visitas": número_de_visitantes, "descricao": "descrição histórica/cultural"},
+          ...
+      }
+    roma: >
+      Liste 3 pontos turísticos imperdíveis de Roma. Para cada ponto turístico, forneça o número estimado de visitantes anuais e uma breve descrição histórica ou cultural. 
+      Responda no seguinte formato JSON:
+      {
+          "Nome do Ponto Turístico": {"cidade": "Roma", "qtd_visitas": número_de_visitantes, "descricao": "descrição histórica/cultural"},
+          ...
+      }
